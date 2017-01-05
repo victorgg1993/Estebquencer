@@ -3,7 +3,7 @@
 
 ./Readme.md ----> 
 
-./Todo.ods -----> Aquí van todas las notas y tareas pendientes. También va el BOM    Programa => Open office / libre Office
+./Todo.ods -----> Aquí van todas las notas y tareas pendientes. También va el BOM.   Programa => Open office / libre Office
 
 ./Caja/ --------> Aquí va la caja ( enclosure ) del aparato.                         Programa => FreeCad
 
