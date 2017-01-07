@@ -13,4 +13,3 @@
 
 ./PCB/ ---------> Aquí va todo el proyecto de la placa base ( PCB + esquemáticos ).  Programa => Kicad
 
-Todo entendido !!!!!!!!!!
