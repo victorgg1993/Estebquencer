@@ -276,7 +276,25 @@ S 8900 4300 700  600
 U 58715979
 F0 "Operacional" 60
 F1 "test_operacional.sch" 60
+F2 "input" I L 8900 4550 60 
+F3 "output" I R 9600 4550 60 
 $EndSheet
 Text Notes 8700 4100 0    60   ~ 0
 haz click derecho dentro del cuadradito\ny después en " enter sheet "\n(también vale doble click)
+Wire Wire Line
+	8900 4550 8550 4550
+Wire Wire Line
+	8550 4550 8550 4250
+Wire Wire Line
+	8550 4250 7650 4250
+Wire Wire Line
+	7650 4350 8350 4350
+Wire Wire Line
+	8350 4350 8350 5150
+Wire Wire Line
+	8350 5150 10200 5150
+Wire Wire Line
+	10200 5150 10200 4550
+Wire Wire Line
+	10200 4550 9600 4550
 $EndSCHEMATC
