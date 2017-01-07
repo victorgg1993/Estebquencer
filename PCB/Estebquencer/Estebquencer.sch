@@ -30,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:libreria_proyecto
 LIBS:Estebquencer-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -55,28 +55,6 @@ F 3 "" H 4750 2950 50  0000 C CNN
 	1    4750 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L DAC7513_DCN IC2
-U 1 1 5871366C
-P 9350 1500
-F 0 "IC2" H 9350 2178 50  0000 C CNN
-F 1 "DAC7513_DCN" H 9350 2087 50  0000 C CNN
-F 2 "" H 9400 1100 50  0000 L CNN
-F 3 "" H 9350 1500 50  0000 C CNN
-	1    9350 1500
-	1    0    0    -1  
-$EndComp
-Text GLabel 10450 1300 2    60   Input ~ 0
-Audio_Out
-Wire Wire Line
-	9950 1300 10250 1300
-Wire Wire Line
-	10250 1300 10450 1300
-Wire Wire Line
-	9950 1500 10250 1500
-Wire Wire Line
-	10250 1500 10250 1300
-Connection ~ 10250 1300
 $Comp
 L POT R1
 U 1 1 58713A3D
@@ -205,4 +183,15 @@ Text GLabel 4500 6050 1    60   Input ~ 0
 +3V3
 Wire Wire Line
 	4500 6250 4500 6050
+$Comp
+L DAC8552 U?
+U 1 1 58714820
+P 9100 1650
+F 0 "U?" H 8900 1900 60  0000 C CNN
+F 1 "DAC8552" H 8950 1400 60  0000 C CNN
+F 2 "" H 9100 1750 60  0001 C CNN
+F 3 "" H 9100 1750 60  0001 C CNN
+	1    9100 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
