@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Estebquencer-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,13 +29,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:libreria_proyecto
 LIBS:Estebquencer-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -45,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STM32F103C8T6 IC1
+L STM32F103C8T6 UC1
 U 1 1 58712984
 P 4750 2950
-F 0 "IC1" H 4750 5018 50  0000 C CNN
+F 0 "UC1" H 4750 5018 50  0000 C CNN
 F 1 "STM32F103C8T6" H 4750 4927 50  0000 C CNN
 F 2 "LQFP48" H 4750 4836 50  0000 C CNN
 F 3 "" H 4750 2950 50  0000 C CNN
@@ -56,119 +56,119 @@ F 3 "" H 4750 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT R1
+L POT-RESCUE-Estebquencer R1
 U 1 1 58713A3D
-P 1350 6400
-F 0 "R1" H 1280 6446 50  0000 R CNN
-F 1 "10Kb" H 1280 6355 50  0000 R CNN
-F 2 "" H 1350 6400 50  0000 C CNN
-F 3 "" H 1350 6400 50  0000 C CNN
-	1    1350 6400
-	1    0    0    -1  
+P 950 7250
+F 0 "R1" H 880 7296 50  0000 R CNN
+F 1 "10Kb" H 880 7205 50  0000 R CNN
+F 2 "" H 950 7250 50  0000 C CNN
+F 3 "" H 950 7250 50  0000 C CNN
+	1    950  7250
+	0    1    1    0   
 $EndComp
-Text GLabel 1650 6400 2    60   Input ~ 0
-Pot_1
+Text GLabel 1250 7250 2    60   Input ~ 0
+Pot_1_Tunning
 $Comp
 L Earth #PWR?
 U 1 1 58713CAC
-P 1350 6700
-F 0 "#PWR?" H 1350 6450 50  0001 C CNN
-F 1 "Earth" H 1350 6550 50  0001 C CNN
-F 2 "" H 1350 6700 50  0000 C CNN
-F 3 "" H 1350 6700 50  0000 C CNN
-	1    1350 6700
+P 950 7550
+F 0 "#PWR?" H 950 7300 50  0001 C CNN
+F 1 "Earth" H 950 7400 50  0001 C CNN
+F 2 "" H 950 7550 50  0000 C CNN
+F 3 "" H 950 7550 50  0000 C CNN
+	1    950  7550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 6050 1    60   Input ~ 0
+Text GLabel 950  6900 1    60   Input ~ 0
 +3V3
 $Comp
-L POT R2
+L POT-RESCUE-Estebquencer R2
 U 1 1 58713D88
-P 2400 6400
-F 0 "R2" H 2330 6446 50  0000 R CNN
-F 1 "10Kb" H 2330 6355 50  0000 R CNN
-F 2 "" H 2400 6400 50  0000 C CNN
-F 3 "" H 2400 6400 50  0000 C CNN
-	1    2400 6400
-	1    0    0    -1  
+P 2500 7250
+F 0 "R2" H 2430 7296 50  0000 R CNN
+F 1 "10Kb" H 2430 7205 50  0000 R CNN
+F 2 "" H 2500 7250 50  0000 C CNN
+F 3 "" H 2500 7250 50  0000 C CNN
+	1    2500 7250
+	0    1    1    0   
 $EndComp
-Text GLabel 2700 6400 2    60   Input ~ 0
-Pot_2
+Text GLabel 2800 7250 2    60   Input ~ 0
+Pot_2_Decay
 $Comp
 L Earth #PWR?
 U 1 1 58713D90
-P 2400 6700
-F 0 "#PWR?" H 2400 6450 50  0001 C CNN
-F 1 "Earth" H 2400 6550 50  0001 C CNN
-F 2 "" H 2400 6700 50  0000 C CNN
-F 3 "" H 2400 6700 50  0000 C CNN
-	1    2400 6700
+P 2500 7550
+F 0 "#PWR?" H 2500 7300 50  0001 C CNN
+F 1 "Earth" H 2500 7400 50  0001 C CNN
+F 2 "" H 2500 7550 50  0000 C CNN
+F 3 "" H 2500 7550 50  0000 C CNN
+	1    2500 7550
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 6050 1    60   Input ~ 0
+Text GLabel 2500 6900 1    60   Input ~ 0
 +3V3
 $Comp
-L POT R3
+L POT-RESCUE-Estebquencer R3
 U 1 1 58713E04
-P 3450 6400
-F 0 "R3" H 3380 6446 50  0000 R CNN
-F 1 "10Kb" H 3380 6355 50  0000 R CNN
-F 2 "" H 3450 6400 50  0000 C CNN
-F 3 "" H 3450 6400 50  0000 C CNN
-	1    3450 6400
-	1    0    0    -1  
+P 4000 7250
+F 0 "R3" H 3930 7296 50  0000 R CNN
+F 1 "10Kb" H 3930 7205 50  0000 R CNN
+F 2 "" H 4000 7250 50  0000 C CNN
+F 3 "" H 4000 7250 50  0000 C CNN
+	1    4000 7250
+	0    1    1    0   
 $EndComp
-Text GLabel 3750 6400 2    60   Input ~ 0
-Pot_3
+Text GLabel 4300 7250 2    60   Input ~ 0
+Pot_3_Env_Mod
 $Comp
 L Earth #PWR?
 U 1 1 58713E0C
-P 3450 6700
-F 0 "#PWR?" H 3450 6450 50  0001 C CNN
-F 1 "Earth" H 3450 6550 50  0001 C CNN
-F 2 "" H 3450 6700 50  0000 C CNN
-F 3 "" H 3450 6700 50  0000 C CNN
-	1    3450 6700
+P 4000 7550
+F 0 "#PWR?" H 4000 7300 50  0001 C CNN
+F 1 "Earth" H 4000 7400 50  0001 C CNN
+F 2 "" H 4000 7550 50  0000 C CNN
+F 3 "" H 4000 7550 50  0000 C CNN
+	1    4000 7550
 	1    0    0    -1  
 $EndComp
-Text GLabel 3450 6050 1    60   Input ~ 0
+Text GLabel 4000 6900 1    60   Input ~ 0
 +3V3
 $Comp
-L POT R4
+L POT-RESCUE-Estebquencer R4
 U 1 1 58713E15
-P 4500 6400
-F 0 "R4" H 4430 6446 50  0000 R CNN
-F 1 "10Kb" H 4430 6355 50  0000 R CNN
-F 2 "" H 4500 6400 50  0000 C CNN
-F 3 "" H 4500 6400 50  0000 C CNN
-	1    4500 6400
-	1    0    0    -1  
+P 5600 7250
+F 0 "R4" H 5530 7296 50  0000 R CNN
+F 1 "10Kb" H 5530 7205 50  0000 R CNN
+F 2 "" H 5600 7250 50  0000 C CNN
+F 3 "" H 5600 7250 50  0000 C CNN
+	1    5600 7250
+	0    1    1    0   
 $EndComp
-Text GLabel 4800 6400 2    60   Input ~ 0
-Pot_4
+Text GLabel 5900 7250 2    60   Input ~ 0
+Pot_4_Accent
 $Comp
 L Earth #PWR?
 U 1 1 58713E1D
-P 4500 6700
-F 0 "#PWR?" H 4500 6450 50  0001 C CNN
-F 1 "Earth" H 4500 6550 50  0001 C CNN
-F 2 "" H 4500 6700 50  0000 C CNN
-F 3 "" H 4500 6700 50  0000 C CNN
-	1    4500 6700
+P 5600 7550
+F 0 "#PWR?" H 5600 7300 50  0001 C CNN
+F 1 "Earth" H 5600 7400 50  0001 C CNN
+F 2 "" H 5600 7550 50  0000 C CNN
+F 3 "" H 5600 7550 50  0000 C CNN
+	1    5600 7550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 6050 1    60   Input ~ 0
+Text GLabel 5600 6900 1    60   Input ~ 0
 +3V3
 $Comp
-L DAC8552 U?
+L DAC8552 IC1
 U 1 1 58714820
-P 8550 850
-F 0 "U?" H 8350 1100 60  0000 C CNN
-F 1 "DAC8552" H 8400 600 60  0000 C CNN
-F 2 "" H 8550 950 60  0001 C CNN
-F 3 "" H 8550 950 60  0001 C CNN
-	1    8550 850 
-	1    0    0    -1  
+P 1650 5300
+F 0 "IC1" H 1450 5550 60  0000 C CNN
+F 1 "DAC8552" H 1500 5050 60  0000 C CNN
+F 2 "" H 1650 5400 60  0001 C CNN
+F 3 "" H 1650 5400 60  0001 C CNN
+	1    1650 5300
+	-1   0    0    1   
 $EndComp
 $Comp
 L Crystal Q1
@@ -203,34 +203,117 @@ F 3 "" H 1100 1900 50  0000 C CNN
 	1    1100 1900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Earth #PWR?
+U 1 1 58715C9E
+P 650 2400
+F 0 "#PWR?" H 650 2150 50  0001 C CNN
+F 1 "Earth" H 650 2250 50  0001 C CNN
+F 2 "" H 650 2400 50  0000 C CNN
+F 3 "" H 650 2400 50  0000 C CNN
+	1    650  2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 5150 2    60   Input ~ 0
+Audio_out_osc
+Text GLabel 2500 5300 2    60   Input ~ 0
+Audio_out_
+Text GLabel 7800 2850 2    60   Input ~ 0
+Pot_1_Tunning
+Text GLabel 7800 2950 2    60   Input ~ 0
+Pot_2_Decay
+Text GLabel 7800 3050 2    60   Input ~ 0
+Pot_3_Env_Mod
+Text GLabel 7800 3150 2    60   Input ~ 0
+Pot_4_Accent
+Text GLabel 7800 3850 2    60   Input ~ 0
+Decay_out
+Text GLabel 7800 3950 2    60   Input ~ 0
+Env_Mod_out
+$Comp
+L 74HC595 IC2
+U 1 1 58719072
+P 10100 2700
+F 0 "IC2" H 10100 3466 50  0000 C CNN
+F 1 "74HC595" H 10100 3375 50  0000 C CNN
+F 2 "" H 10100 2700 50  0000 C CNN
+F 3 "" H 10100 2700 50  0000 C CNN
+	1    10100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC595 IC3
+U 1 1 58719136
+P 10100 4150
+F 0 "IC3" H 10100 4916 50  0000 C CNN
+F 1 "74HC595" H 10100 4825 50  0000 C CNN
+F 2 "" H 10100 4150 50  0000 C CNN
+F 3 "" H 10100 4150 50  0000 C CNN
+	1    10100 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 2950 0    60   Input ~ 0
+DISP_SER
+Text GLabel 1550 3850 0    60   Input ~ 0
+DISP_EN
+Text GLabel 1550 3950 0    60   Input ~ 0
+DISP_SCK
+$Comp
+L Earth #PWR?
+U 1 1 5871A76B
+P 9250 2950
+F 0 "#PWR?" H 9250 2700 50  0001 C CNN
+F 1 "Earth" H 9250 2800 50  0001 C CNN
+F 2 "" H 9250 2950 50  0000 C CNN
+F 3 "" H 9250 2950 50  0000 C CNN
+	1    9250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5871A79E
+P 9300 4450
+F 0 "#PWR?" H 9300 4200 50  0001 C CNN
+F 1 "Earth" H 9300 4300 50  0001 C CNN
+F 2 "" H 9300 4450 50  0000 C CNN
+F 3 "" H 9300 4450 50  0000 C CNN
+	1    9300 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 2250 0    60   Input ~ 0
+DISP_SER
+Text GLabel 9150 2450 0    60   Input ~ 0
+DISP_SCK
+Text GLabel 9150 2750 0    60   Input ~ 0
+DISP_EN
 Wire Wire Line
-	1650 6400 1500 6400
+	1250 7250 1100 7250
 Wire Wire Line
-	1350 6550 1350 6700
+	950  7400 950  7550
 Wire Wire Line
-	1350 6250 1350 6050
+	950  7100 950  6900
 Wire Wire Line
-	2700 6400 2550 6400
+	2800 7250 2650 7250
 Wire Wire Line
-	2400 6550 2400 6700
+	2500 7400 2500 7550
 Wire Wire Line
-	2400 6250 2400 6050
+	2500 7100 2500 6900
 Wire Wire Line
-	3750 6400 3600 6400
+	4300 7250 4150 7250
 Wire Wire Line
-	3450 6550 3450 6700
+	4000 7400 4000 7550
 Wire Wire Line
-	3450 6250 3450 6050
+	4000 7100 4000 6900
 Wire Wire Line
-	4800 6400 4650 6400
+	5900 7250 5750 7250
 Wire Wire Line
-	4500 6550 4500 6700
+	5600 7400 5600 7550
 Wire Wire Line
-	4500 6250 4500 6050
+	5600 7100 5600 6900
 Wire Wire Line
-	1250 2550 1300 2550
+	1300 2550 1250 2550
 Wire Wire Line
-	1300 2550 1300 2350
+	1300 2350 1300 2550
 Wire Wire Line
 	1850 2250 1700 2250
 Wire Wire Line
@@ -255,57 +338,198 @@ Wire Wire Line
 	850  1900 850  2550
 Wire Wire Line
 	850  2550 950  2550
-$Comp
-L Earth #PWR?
-U 1 1 58715C9E
-P 650 2400
-F 0 "#PWR?" H 650 2150 50  0001 C CNN
-F 1 "Earth" H 650 2250 50  0001 C CNN
-F 2 "" H 650 2400 50  0000 C CNN
-F 3 "" H 650 2400 50  0000 C CNN
-	1    650  2400
-	1    0    0    -1  
-$EndComp
 Connection ~ 850  2250
 Wire Wire Line
 	850  2250 650  2250
 Wire Wire Line
 	650  2250 650  2400
-$Sheet
-S 8900 4300 700  600 
-U 58715979
-F0 "Operacional" 60
-F1 "test_operacional.sch" 60
-F2 "input" I L 8900 4550 60 
-F3 "output" I R 9600 4550 60 
-$EndSheet
-Text Notes 8700 4100 0    60   ~ 0
-haz click derecho dentro del cuadradito\ny después en " enter sheet "\n(también vale doble click)
 Wire Wire Line
-	8900 4550 8550 4550
+	2200 5150 2500 5150
 Wire Wire Line
-	8550 4550 8550 4250
+	2500 5300 2450 5300
 Wire Wire Line
-	8550 4250 7650 4250
+	2450 5300 2450 5250
 Wire Wire Line
-	7650 4350 8350 4350
+	2450 5250 2200 5250
 Wire Wire Line
-	8350 4350 8350 5150
+	1050 5350 750  5350
 Wire Wire Line
-	8350 5150 10200 5150
+	750  5350 750  4350
 Wire Wire Line
-	10200 5150 10200 4550
+	750  4350 1850 4350
 Wire Wire Line
-	10200 4550 9600 4550
+	1850 4050 950  4050
+Wire Wire Line
+	950  4050 950  5150
+Wire Wire Line
+	950  5150 1050 5150
+Wire Wire Line
+	1850 4150 850  4150
+Wire Wire Line
+	850  4150 850  5250
+Wire Wire Line
+	850  5250 1050 5250
+Wire Wire Line
+	7650 3150 7800 3150
+Wire Wire Line
+	7650 3050 7800 3050
+Wire Wire Line
+	7650 2950 7800 2950
+Wire Wire Line
+	7650 2850 7800 2850
+Wire Wire Line
+	7800 3850 7650 3850
+Wire Wire Line
+	7650 3950 7800 3950
+Wire Wire Line
+	1850 3850 1550 3850
+Wire Wire Line
+	1550 2950 1850 2950
+Wire Wire Line
+	1850 3950 1550 3950
+Wire Wire Line
+	10800 3150 10950 3150
+Wire Wire Line
+	10950 3150 10950 3300
+Wire Wire Line
+	10950 3300 9300 3300
+Wire Wire Line
+	9300 3300 9300 3700
+Wire Wire Line
+	9300 3700 9400 3700
+Wire Wire Line
+	9400 2850 9250 2850
+Wire Wire Line
+	9250 2850 9250 2950
+Wire Wire Line
+	9300 4450 9300 4300
+Wire Wire Line
+	9300 4300 9400 4300
+Wire Wire Line
+	9150 2750 9400 2750
+Wire Wire Line
+	9150 2450 9400 2450
+Wire Wire Line
+	9400 2250 9150 2250
+Text GLabel 9150 2250 0    60   Input ~ 0
+DISP_SER
+Text GLabel 9150 2450 0    60   Input ~ 0
+DISP_SCK
+Text GLabel 9150 2750 0    60   Input ~ 0
+DISP_EN
+Text GLabel 9150 2250 0    60   Input ~ 0
+DISP_SER
+Text GLabel 9150 2450 0    60   Input ~ 0
+DISP_SCK
+Text GLabel 9150 2750 0    60   Input ~ 0
+DISP_EN
+Text GLabel 9150 2250 0    60   Input ~ 0
+DISP_SER
+Text GLabel 9150 2450 0    60   Input ~ 0
+DISP_SCK
+Text GLabel 9150 2750 0    60   Input ~ 0
+DISP_EN
+Text GLabel 9150 3900 0    60   Input ~ 0
+DISP_SCK
+Text GLabel 9150 4200 0    60   Input ~ 0
+DISP_EN
+Text GLabel 9150 3900 0    60   Input ~ 0
+DISP_SCK
+Text GLabel 9150 4200 0    60   Input ~ 0
+DISP_EN
+Text GLabel 9150 3900 0    60   Input ~ 0
+DISP_SCK
+Text GLabel 9150 4200 0    60   Input ~ 0
+DISP_EN
+Text GLabel 9150 3900 0    60   Input ~ 0
+DISP_SCK
+Text GLabel 9150 4200 0    60   Input ~ 0
+DISP_EN
+Wire Wire Line
+	9150 3900 9400 3900
+Wire Wire Line
+	9150 4200 9400 4200
 $Comp
-L AT89C2051-P IC?
-U 1 1 58715DCF
-P 9900 2550
-F 0 "IC?" H 8950 3550 50  0000 C CNN
-F 1 "AT89C2051-P" H 10650 1650 50  0000 C CNN
-F 2 "DIP20" H 9900 2550 50  0000 C CIN
-F 3 "" H 9900 2550 50  0000 C CNN
-	1    9900 2550
+L +3V3 #PWR?
+U 1 1 5871ADD1
+P 9300 2600
+F 0 "#PWR?" H 9300 2450 50  0001 C CNN
+F 1 "+3V3" V 9315 2728 50  0000 L CNN
+F 2 "" H 9300 2600 50  0000 C CNN
+F 3 "" H 9300 2600 50  0000 C CNN
+	1    9300 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 2600 9350 2600
+Wire Wire Line
+	9350 2600 9350 2550
+Wire Wire Line
+	9350 2550 9400 2550
+$Comp
+L 74HC595 IC?
+U 1 1 5871AEE9
+P 10100 2700
+F 0 "IC?" H 10100 3466 50  0000 C CNN
+F 1 "74HC595" H 10100 3375 50  0000 C CNN
+F 2 "" H 10100 2700 50  0000 C CNN
+F 3 "" H 10100 2700 50  0000 C CNN
+	1    10100 2700
 	1    0    0    -1  
 $EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5871AEEF
+P 9300 2600
+F 0 "#PWR?" H 9300 2450 50  0001 C CNN
+F 1 "+3V3" V 9315 2728 50  0000 L CNN
+F 2 "" H 9300 2600 50  0000 C CNN
+F 3 "" H 9300 2600 50  0000 C CNN
+	1    9300 2600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 3350 0    60   Input ~ 0
+DISP_CHAR0
+$Comp
+L +3V3 #PWR?
+U 1 1 5871B284
+P 9300 4050
+F 0 "#PWR?" H 9300 3900 50  0001 C CNN
+F 1 "+3V3" V 9315 4178 50  0000 L CNN
+F 2 "" H 9300 4050 50  0000 C CNN
+F 3 "" H 9300 4050 50  0000 C CNN
+	1    9300 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 4050 9350 4050
+Wire Wire Line
+	9350 4050 9350 4000
+Wire Wire Line
+	9350 4000 9400 4000
+$Comp
+L +3V3 #PWR?
+U 1 1 5871B28D
+P 9300 4050
+F 0 "#PWR?" H 9300 3900 50  0001 C CNN
+F 1 "+3V3" V 9315 4178 50  0000 L CNN
+F 2 "" H 9300 4050 50  0000 C CNN
+F 3 "" H 9300 4050 50  0000 C CNN
+	1    9300 4050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 3450 0    60   Input ~ 0
+DISP_CHAR1
+Text GLabel 1550 3550 0    60   Input ~ 0
+DISP_CHAR2
+Wire Wire Line
+	1550 3350 1850 3350
+Wire Wire Line
+	1550 3450 1850 3450
+Wire Wire Line
+	1550 3550 1850 3550
+Text GLabel 1550 3650 0    60   Input ~ 0
+DISP_CHAR3
+Wire Wire Line
+	1550 3650 1850 3650
 $EndSCHEMATC
