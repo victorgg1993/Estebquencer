@@ -170,10 +170,12 @@ Wire Wire Line
 	5950 1650 5950 1800
 Connection ~ 5850 1650
 $Sheet
-S 1200 6500 1000 500 
+S 1700 6500 500  500 
 U 5875F97F
 F0 "JTAG" 197
 F1 "JTAG.sch" 60
+F2 "SWDIO" I R 2200 6700 60 
+F3 "SWCLK" I R 2200 6800 60 
 $EndSheet
 Text HLabel 2900 4100 0    60   Input ~ 0
 MIDI_TX
@@ -183,4 +185,72 @@ Wire Wire Line
 	2900 4200 3050 4200
 Wire Wire Line
 	2900 4100 3050 4100
+Text GLabel 9050 4800 2    60   Input ~ 0
+SWDIO
+Text GLabel 9050 4900 2    60   Input ~ 0
+SWCLK
+Wire Wire Line
+	9050 4900 8850 4900
+Wire Wire Line
+	8850 4800 9050 4800
+Text GLabel 2300 6700 2    60   Input ~ 0
+SWDIO
+Text GLabel 2300 6800 2    60   Input ~ 0
+SWCLK
+Wire Wire Line
+	2200 6800 2300 6800
+Wire Wire Line
+	2300 6700 2200 6700
+Text HLabel 2900 3100 0    60   Input ~ 0
+encoder_L
+Text HLabel 2900 3200 0    60   Input ~ 0
+encoder_R
+Text HLabel 2900 3300 0    60   Input ~ 0
+encoder_click
+Wire Wire Line
+	2900 3100 3050 3100
+Wire Wire Line
+	3050 3200 2900 3200
+Wire Wire Line
+	2900 3300 3050 3300
+Text HLabel 2900 4000 0    60   Input ~ 0
+DAC_Din
+Text HLabel 2900 3800 0    60   Input ~ 0
+DAC_Sclk
+Text HLabel 2900 3900 0    60   Input ~ 0
+DAC_#Sync
+Wire Wire Line
+	2900 3800 3050 3800
+Wire Wire Line
+	2900 3900 3050 3900
+Wire Wire Line
+	3050 4000 2900 4000
+Text HLabel 2900 4800 0    60   Input ~ 0
+DISP_SCK
+Text HLabel 2900 5000 0    60   Input ~ 0
+DISP_SER
+Text HLabel 2900 4700 0    60   Input ~ 0
+DISP_EN
+Wire Wire Line
+	2900 4700 3050 4700
+Wire Wire Line
+	2900 4800 3050 4800
+Wire Wire Line
+	2900 5000 3050 5000
+Text HLabel 2900 4300 0    60   Input ~ 0
+DISP_CHAR0
+Text HLabel 2900 4400 0    60   Input ~ 0
+DISP_CHAR1
+Text HLabel 2900 4500 0    60   Input ~ 0
+DISP_CHAR2
+Text HLabel 2900 4600 0    60   Input ~ 0
+DISP_CHAR3
+Wire Wire Line
+	2900 4600 3050 4600
+Wire Wire Line
+	3050 4500 2900 4500
+Wire Wire Line
+	2900 4400 3050 4400
+Wire Wire Line
+	3050 4300 2900 4300
 $EndSCHEMATC
