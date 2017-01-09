@@ -139,9 +139,9 @@ F1 "midi.sch" 60
 F2 "Midi_Tx" I L 8400 3650 60 
 F3 "Midi_Rx" I L 8400 3750 60 
 $EndSheet
-Text Notes 550  -2350 0    394  ~ 0
+Text Notes -12300 200  0    394  ~ 0
 ·Módulo display terminado. No tocar
-Text Notes 600  -3150 0    1181 ~ 0
+Text Notes -12250 -600 0    1181 ~ 0
 Notas:
 Text GLabel 8300 2350 0    60   Input ~ 0
 DAC_#Sync
@@ -149,7 +149,7 @@ Text GLabel 8300 2450 0    60   Input ~ 0
 DAC_Sclk
 Text GLabel 8300 2550 0    60   Input ~ 0
 DAC_Din
-Text Notes 550  -1700 0    394  ~ 0
+Text Notes -12300 850  0    394  ~ 0
 ·Módulo DAC terminado. No tocar
 $Sheet
 S 8550 5450 600  400 
@@ -255,8 +255,16 @@ F5 "din" I L 8400 2550 60
 F6 "sclk" I L 8400 2450 60 
 F7 "#sync" I L 8400 2350 60 
 $EndSheet
-Text Notes 550  -650 0    394  ~ 0
+Text Notes -12300 1900 0    394  ~ 0
 ·Módulo Potes terminado. No tocar
-Text Notes 550  -1150 0    394  ~ 0
+Text Notes -12300 1400 0    394  ~ 0
 ·Módulo Encoder terminado. No tocar
+Text Notes -12400 4850 0    1181 ~ 0
+Falta:
+Text Notes -12500 5700 0    394  ~ 0
+·ARM
+Text Notes -12600 6400 0    394  ~ 0
+·JTAG
+Text Notes -12650 7150 0    394  ~ 0
+·MIDI
 $EndSCHEMATC

@@ -105,8 +105,6 @@ F 3 "" H 5850 3810 50  0001 C CNN
 $EndComp
 Text HLabel 5400 3450 0    60   Input ~ 0
 encoder_left
-Text HLabel 5400 3550 0    60   Input ~ 0
-encoder_common
 Text HLabel 5400 3650 0    60   Input ~ 0
 encoder_right
 $Comp
@@ -131,7 +129,20 @@ Wire Wire Line
 Wire Wire Line
 	5400 3450 5550 3450
 Wire Wire Line
-	5400 3550 5550 3550
+	4550 3550 5550 3550
 Wire Wire Line
 	5550 3650 5400 3650
+$Comp
+L GNDREF #PWR?
+U 1 1 58736298
+P 4550 4100
+F 0 "#PWR?" H 4550 3850 50  0001 C CNN
+F 1 "GNDREF" H 4550 3950 50  0000 C CNN
+F 2 "" H 4550 4100 50  0000 C CNN
+F 3 "" H 4550 4100 50  0000 C CNN
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3550 4550 4100
 $EndSCHEMATC

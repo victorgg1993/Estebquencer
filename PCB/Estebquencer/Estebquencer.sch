@@ -167,9 +167,8 @@ U 5874E884
 F0 "Encoder" 197
 F1 "encoder.sch" 60
 F2 "encoder_left" I L 8300 4350 60 
-F3 "encoder_common" I L 8300 4450 60 
-F4 "encoder_right" I L 8300 4550 60 
-F5 "encoder_button" I L 8300 4750 60 
+F3 "encoder_right" I L 8300 4450 60 
+F4 "encoder_button" I L 8300 4750 60 
 $EndSheet
 Text GLabel 8200 4350 0    60   Input ~ 0
 ENC_L
@@ -177,8 +176,6 @@ Text GLabel 8200 4450 0    60   Input ~ 0
 ENC_R
 Text GLabel 8200 4750 0    60   Input ~ 0
 ENC_CLICK
-Text GLabel 8200 4550 0    60   Input ~ 0
-ENC_common
 $Sheet
 S 3450 3050 1600 900 
 U 5875A8C4
@@ -215,10 +212,6 @@ Wire Wire Line
 	8450 5700 8550 5700
 Wire Wire Line
 	8550 5800 8450 5800
-Wire Wire Line
-	8200 4550 8300 4550
-Wire Wire Line
-	8300 4450 8200 4450
 Wire Wire Line
 	8200 4350 8300 4350
 Wire Wire Line
@@ -267,4 +260,6 @@ Text Notes -12600 6400 0    394  ~ 0
 ·JTAG
 Text Notes -12650 7150 0    394  ~ 0
 ·MIDI
+Wire Wire Line
+	8200 4450 8300 4450
 $EndSCHEMATC
