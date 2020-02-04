@@ -1,88 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:libreria_proyecto
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:Estebquencer-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -92,131 +14,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 8450 5500 0    60   Input ~ 0
-Pot_1_Tunning
-Text GLabel 8450 5600 0    60   Input ~ 0
-Pot_2_Decay
-Text GLabel 8450 5700 0    60   Input ~ 0
-Pot_3_Env_Mod
-Text GLabel 8450 5800 0    60   Input ~ 0
-Pot_4_Accent
-Text GLabel 8300 2850 0    60   Input ~ 0
-Audio_out_osc
-Text GLabel 8300 2950 0    60   Input ~ 0
-Audio_out_
-Text GLabel 8150 1000 0    60   Input ~ 0
-DISP_SER
-Text GLabel 8150 1100 0    60   Input ~ 0
-DISP_SCK
-Text GLabel 8150 1200 0    60   Input ~ 0
-DISP_EN
-Text GLabel 8150 1400 0    60   Input ~ 0
-DISP_CHAR0
-Text GLabel 8150 1500 0    60   Input ~ 0
-DISP_CHAR1
-Text GLabel 8150 1600 0    60   Input ~ 0
-DISP_CHAR2
-Text GLabel 8150 1700 0    60   Input ~ 0
-DISP_CHAR3
-$Sheet
-S 8300 900  900  950 
-U 58727855
-F0 "Display" 197
-F1 "Display.sch" 39
-F2 "DISP_CHAR0" I L 8300 1400 60 
-F3 "DISP_CHAR1" I L 8300 1500 60 
-F4 "DISP_CHAR2" I L 8300 1600 60 
-F5 "DISP_CHAR3" I L 8300 1700 60 
-F6 "disp_ser" I L 8300 1000 60 
-F7 "disp_clk" I L 8300 1100 60 
-F8 "disp_en" I L 8300 1200 60 
-$EndSheet
-$Sheet
-S 8400 3600 550  200 
-U 5873E743
-F0 "midi" 197
-F1 "midi.sch" 60
-F2 "Midi_Tx" I L 8400 3650 60 
-F3 "Midi_Rx" I L 8400 3750 60 
-$EndSheet
 Text Notes -12300 200  0    394  ~ 0
 ·Módulo display terminado. No tocar
 Text Notes -12250 -600 0    1181 ~ 0
 Notas:
-Text GLabel 8300 2350 0    60   Input ~ 0
-DAC_#Sync
-Text GLabel 8300 2450 0    60   Input ~ 0
-DAC_Sclk
-Text GLabel 8300 2550 0    60   Input ~ 0
-DAC_Din
 Text Notes -12300 850  0    394  ~ 0
 ·Módulo DAC terminado. No tocar
-$Sheet
-S 8550 5450 600  400 
-U 5874949F
-F0 "Potes" 197
-F1 "potenciometros.sch" 39
-F2 "tunning" I L 8550 5500 60 
-F3 "decay" I L 8550 5600 60 
-F4 "env_mode" I L 8550 5700 60 
-F5 "accent" I L 8550 5800 60 
-$EndSheet
-$Sheet
-S 8300 4250 950  600 
-U 5874E884
-F0 "Encoder" 197
-F1 "encoder.sch" 60
-F2 "encoder_left" I L 8300 4350 60 
-F3 "encoder_right" I L 8300 4450 60 
-F4 "encoder_button" I L 8300 4750 60 
-$EndSheet
-Text GLabel 8200 4350 0    60   Input ~ 0
-ENC_L
-Text GLabel 8200 4450 0    60   Input ~ 0
-ENC_R
-Text GLabel 8200 4750 0    60   Input ~ 0
-ENC_CLICK
-$Sheet
-S 3300 3050 900  1700
-U 5875A8C4
-F0 "ARM" 197
-F1 "arm.sch" 60
-F2 "MIDI_TX" I R 4200 3100 60 
-F3 "MIDI_RX" I R 4200 3200 60 
-F4 "encoder_L" I R 4200 3350 60 
-F5 "encoder_R" I R 4200 3450 60 
-F6 "encoder_click" I R 4200 3550 60 
-F7 "DAC_Din" I R 4200 3900 60 
-F8 "DAC_Sclk" I R 4200 3800 60 
-F9 "DAC_#Sync" I R 4200 3700 60 
-F10 "DISP_SCK" I R 4200 4150 60 
-F11 "DISP_SER" I R 4200 4050 60 
-F12 "DISP_EN" I R 4200 4250 60 
-F13 "DISP_CHAR0" I R 4200 4350 60 
-F14 "DISP_CHAR1" I R 4200 4450 60 
-F15 "DISP_CHAR2" I R 4200 4550 60 
-F16 "DISP_CHAR3" I R 4200 4650 60 
-$EndSheet
-Text GLabel 4350 3100 2    60   Input ~ 0
-Midi_tx
-Text GLabel 4350 3200 2    60   Input ~ 0
-Midi_rx
-Text GLabel 8350 3650 0    60   Input ~ 0
-Midi_tx
-Text GLabel 8350 3750 0    60   Input ~ 0
-Midi_rx
-$Sheet
-S 8400 2300 550  700 
-U 58741263
-F0 "Dac" 197
-F1 "DAC.sch" 39
-F2 "vref" I L 8400 2650 60 
-F3 "vout_B" I L 8400 2950 60 
-F4 "vout_A" I L 8400 2850 60 
-F5 "din" I L 8400 2550 60 
-F6 "sclk" I L 8400 2450 60 
-F7 "#sync" I L 8400 2350 60 
-$EndSheet
 Text Notes -12300 1900 0    394  ~ 0
 ·Módulo Potes terminado. No tocar
 Text Notes -12300 1400 0    394  ~ 0
@@ -229,102 +32,330 @@ Text Notes -12400 2600 0    394  ~ 0
 ·JTAG
 Text Notes -12550 6300 0    394  ~ 0
 ·MIDI
-Text GLabel 4350 3350 2    60   Input ~ 0
-ENC_L
-Text GLabel 4350 3450 2    60   Input ~ 0
-ENC_R
-Text GLabel 4350 3550 2    60   Input ~ 0
-ENC_CLICK
-Text GLabel 4350 3700 2    60   Input ~ 0
-DAC_#Sync
-Text GLabel 4350 3800 2    60   Input ~ 0
-DAC_Sclk
-Text GLabel 4350 3900 2    60   Input ~ 0
-DAC_Din
-Text GLabel 4350 4050 2    60   Input ~ 0
-DISP_SER
-Text GLabel 4350 4150 2    60   Input ~ 0
-DISP_SCK
-Text GLabel 4350 4250 2    60   Input ~ 0
-DISP_EN
-Text GLabel 4350 4350 2    60   Input ~ 0
-DISP_CHAR0
-Text GLabel 4350 4450 2    60   Input ~ 0
-DISP_CHAR1
-Text GLabel 4350 4550 2    60   Input ~ 0
-DISP_CHAR2
-Text GLabel 4350 4650 2    60   Input ~ 0
-DISP_CHAR3
+$Sheet
+S 8400 3800 550  800 
+U 5E3844B9
+F0 "LEDS" 60
+F1 "LEDS.sch" 60
+F2 "Row1" I L 8400 3900 60 
+F3 "Row2" I L 8400 4000 60 
+F4 "Row3" I L 8400 4100 60 
+F5 "Row4" I L 8400 4200 60 
+F6 "Row5" I L 8400 4300 60 
+F7 "Row6" I L 8400 4400 60 
+F8 "Row7" I L 8400 4500 60 
+$EndSheet
+$Sheet
+S 8400 2450 550  1100
+U 5E384AE7
+F0 "JACKS" 60
+F1 "JACKS.sch" 60
+F2 "Gate2" I L 8400 2750 60 
+F3 "CV2" I L 8400 2850 60 
+F4 "CV1" I L 8400 2650 60 
+F5 "Gate1" I L 8400 2550 60 
+F6 "Cin1" O L 8400 3200 60 
+F7 "Cin2" O L 8400 3300 60 
+F8 "Cout2" I L 8400 3500 60 
+F9 "Cout1" I L 8400 3400 60 
+$EndSheet
+$Sheet
+S 7450 2450 900  600 
+U 5E3940B4
+F0 "drivers" 60
+F1 "drivers.sch" 60
+F2 "Gate1" O R 8350 2550 60 
+F3 "CV1" O R 8350 2650 60 
+F4 "Gate2" O R 8350 2750 60 
+F5 "CV2" O R 8350 2850 60 
+F6 "~CS~_DAC1" I L 7450 2800 60 
+F7 "CLK" I L 7450 2650 60 
+F8 "Data" I L 7450 2550 60 
+F9 "~CS~_DAC2" I L 7450 2950 60 
+$EndSheet
+$Sheet
+S 4700 3700 550  1150
+U 5E39428F
+F0 "Buttons" 60
+F1 "Buttons.sch" 60
+F2 "Row1" B R 5250 4550 60 
+F3 "Row2" B R 5250 4650 60 
+F4 "Row3" B R 5250 4750 60 
+F5 "Col1" B R 5250 3800 60 
+F6 "Col2" B R 5250 3900 60 
+F7 "Col3" B R 5250 4000 60 
+F8 "Col4" B R 5250 4100 60 
+F9 "Col5" B R 5250 4200 60 
+F10 "Col6" B R 5250 4300 60 
+F11 "Col7" B R 5250 4400 60 
+$EndSheet
+$Sheet
+S 4700 1750 1150 1700
+U 5875A8C4
+F0 "ARM" 79
+F1 "arm.sch" 79
+F2 "Btn_C1" I L 4700 2100 60 
+F3 "Btn_C2" I L 4700 2200 60 
+F4 "Btn_C3" I L 4700 2300 60 
+F5 "Btn_C4" I L 4700 2400 60 
+F6 "Btn_C5" I L 4700 2500 60 
+F7 "Btn_C6" I L 4700 2600 60 
+F8 "Btn_C7" I L 4700 2700 60 
+F9 "Btn_R1" I L 4700 2850 60 
+F10 "Btn_R2" I L 4700 2950 60 
+F11 "Btn_R3" I L 4700 3050 60 
+F12 "CLK_OUT_2" I R 5850 3350 60 
+F13 "CLK_OUT_1" I R 5850 3250 60 
+F14 "DAC_SCK" I R 5850 2800 60 
+F15 "DAC_MISO" I R 5850 2700 60 
+F16 "DAC_MOSI" I R 5850 2600 60 
+F17 "DAC1_CS" I R 5850 2950 60 
+F18 "DAC2_CS" I R 5850 3100 60 
+F19 "CLK_in_1" I L 4700 3200 60 
+F20 "CLK_in_2" I L 4700 3300 60 
+F21 "LED_R1" I R 5850 1850 60 
+F22 "LED_R2" I R 5850 1950 60 
+F23 "LED_R3" I R 5850 2050 60 
+F24 "USB_D-" I L 4700 1950 60 
+F25 "USB_D+" I L 4700 1850 60 
+F26 "LED_R4" I R 5850 2150 60 
+F27 "LED_R5" I R 5850 2250 60 
+F28 "LED_R6" I R 5850 2350 60 
+F29 "LED_R7" I R 5850 2450 60 
+$EndSheet
+Text GLabel 7350 2550 0    60   Input ~ 0
+DAC_MOSI
+Text GLabel 7350 2650 0    60   Input ~ 0
+DAC_SCK
+Text GLabel 7350 2800 0    60   Input ~ 0
+DAC1_~CS~
+Text GLabel 7350 2950 0    60   Input ~ 0
+DAC2_~CS~
 Wire Wire Line
-	8150 1000 8300 1000
+	7350 2550 7450 2550
 Wire Wire Line
-	8300 1100 8150 1100
+	7450 2650 7350 2650
 Wire Wire Line
-	8150 1200 8300 1200
+	7350 2800 7450 2800
+Text GLabel 8350 3200 0    60   Output ~ 0
+CLK_in_1
+Text GLabel 8350 3300 0    60   Output ~ 0
+CLK_in_2
+Text GLabel 8350 3400 0    60   Input ~ 0
+CLK_out_1
+Text GLabel 4600 3200 0    60   Input ~ 0
+CLK_in_1
+Text GLabel 4600 3300 0    60   Input ~ 0
+CLK_in_2
+Text GLabel 5950 3250 2    60   Output ~ 0
+CLK_out_1
+Text GLabel 5950 2950 2    60   Output ~ 0
+DAC1_~CS~
+Text GLabel 5950 3100 2    60   Output ~ 0
+DAC2_~CS~
+Text GLabel 5950 2800 2    60   Output ~ 0
+DAC_SCK
+Text GLabel 5950 2600 2    60   Output ~ 0
+DAC_MOSI
 Wire Wire Line
-	8300 1400 8150 1400
+	8400 2850 8350 2850
 Wire Wire Line
-	8150 1500 8300 1500
+	8350 2750 8400 2750
 Wire Wire Line
-	8300 1600 8150 1600
+	8400 2650 8350 2650
 Wire Wire Line
-	8150 1700 8300 1700
+	8350 2550 8400 2550
+Text GLabel 8300 3900 0    60   Input ~ 0
+LED_R1
+Text GLabel 8300 4000 0    60   Input ~ 0
+LED_R2
+Text GLabel 8300 4100 0    60   Input ~ 0
+LED_R3
+Text GLabel 8300 4200 0    60   Input ~ 0
+LED_R4
+Text GLabel 8300 4300 0    60   Input ~ 0
+LED_R5
+Text GLabel 8300 4400 0    60   Input ~ 0
+LED_R6
+Text GLabel 8300 4500 0    60   Input ~ 0
+LED_R7
+Text GLabel 5350 3800 2    60   BiDi ~ 0
+Btn_C1
+Text GLabel 5350 3900 2    60   BiDi ~ 0
+Btn_C2
+Text GLabel 5350 4000 2    60   BiDi ~ 0
+Btn_C3
+Text GLabel 5350 4100 2    60   BiDi ~ 0
+Btn_C4
+Text GLabel 5350 4200 2    60   BiDi ~ 0
+Btn_C5
+Text GLabel 5350 4300 2    60   BiDi ~ 0
+Btn_C6
+Text GLabel 5350 4400 2    60   BiDi ~ 0
+Btn_C7
+Text GLabel 5350 4550 2    60   BiDi ~ 0
+Btn_R1
+Text GLabel 5350 4650 2    60   BiDi ~ 0
+Btn_R2
+Text GLabel 5350 4750 2    60   BiDi ~ 0
+Btn_R3
+Text GLabel 5950 1850 2    60   Input ~ 0
+LED_R1
+Text GLabel 5950 1950 2    60   Input ~ 0
+LED_R2
+Text GLabel 5950 2050 2    60   Input ~ 0
+LED_R3
+Text GLabel 5950 2150 2    60   Input ~ 0
+LED_R4
+Text GLabel 5950 2250 2    60   Input ~ 0
+LED_R5
+Text GLabel 5950 2350 2    60   Input ~ 0
+LED_R6
+Text GLabel 5950 2450 2    60   Input ~ 0
+LED_R7
 Wire Wire Line
-	8300 2350 8400 2350
+	8300 3900 8400 3900
 Wire Wire Line
-	8400 2450 8300 2450
+	8400 4000 8300 4000
 Wire Wire Line
-	8300 2550 8400 2550
+	8300 4100 8400 4100
 Wire Wire Line
-	8450 5500 8550 5500
+	8400 4200 8300 4200
 Wire Wire Line
-	8550 5600 8450 5600
+	8300 4300 8400 4300
 Wire Wire Line
-	8450 5700 8550 5700
+	8400 4400 8300 4400
 Wire Wire Line
-	8550 5800 8450 5800
+	8300 4500 8400 4500
 Wire Wire Line
-	8200 4350 8300 4350
+	5250 4750 5350 4750
 Wire Wire Line
-	8300 4750 8200 4750
+	5350 4650 5250 4650
 Wire Wire Line
-	8400 3750 8350 3750
+	5250 4550 5350 4550
 Wire Wire Line
-	8350 3650 8400 3650
+	5350 4400 5250 4400
 Wire Wire Line
-	8300 2850 8400 2850
+	5250 4300 5350 4300
 Wire Wire Line
-	8400 2950 8300 2950
+	5350 4200 5250 4200
 Wire Wire Line
-	8200 4450 8300 4450
+	5250 4100 5350 4100
 Wire Wire Line
-	4350 3100 4200 3100
+	5350 4000 5250 4000
 Wire Wire Line
-	4200 3200 4350 3200
+	5250 3900 5350 3900
 Wire Wire Line
-	4350 3350 4200 3350
+	5350 3800 5250 3800
+Text GLabel 4600 2100 0    60   BiDi ~ 0
+Btn_C1
+Text GLabel 4600 2200 0    60   BiDi ~ 0
+Btn_C2
+Text GLabel 4600 2300 0    60   BiDi ~ 0
+Btn_C3
+Text GLabel 4600 2400 0    60   BiDi ~ 0
+Btn_C4
+Text GLabel 4600 2500 0    60   BiDi ~ 0
+Btn_C5
+Text GLabel 4600 2600 0    60   BiDi ~ 0
+Btn_C6
+Text GLabel 4600 2700 0    60   BiDi ~ 0
+Btn_C7
+Text GLabel 4600 2850 0    60   BiDi ~ 0
+Btn_R1
+Text GLabel 4600 2950 0    60   BiDi ~ 0
+Btn_R2
+Text GLabel 4600 3050 0    60   BiDi ~ 0
+Btn_R3
+Text GLabel 8300 2000 0    60   BiDi ~ 0
+D+
+$Sheet
+S 8400 1900 550  300 
+U 5E3943A3
+F0 "USB" 60
+F1 "USB.sch" 60
+F2 "D+" B L 8400 2000 60 
+F3 "D-" B L 8400 2100 60 
+$EndSheet
+Text GLabel 8300 2100 0    60   BiDi ~ 0
+D-
 Wire Wire Line
-	4200 3450 4350 3450
+	8300 2000 8400 2000
 Wire Wire Line
-	4350 3550 4200 3550
+	8400 2100 8300 2100
+Text GLabel 4600 1950 0    60   BiDi ~ 0
+D-
+Text GLabel 4600 1850 0    60   BiDi ~ 0
+D+
 Wire Wire Line
-	4200 3700 4350 3700
+	7350 2950 7450 2950
+Text GLabel 5950 3350 2    60   Output ~ 0
+CLK_out_2
+Text GLabel 8350 3500 0    60   Input ~ 0
+CLK_out_2
 Wire Wire Line
-	4350 3800 4200 3800
+	8400 3200 8350 3200
 Wire Wire Line
-	4200 3900 4350 3900
+	8350 3300 8400 3300
 Wire Wire Line
-	4350 4050 4200 4050
+	8400 3400 8350 3400
 Wire Wire Line
-	4200 4150 4350 4150
+	8350 3500 8400 3500
 Wire Wire Line
-	4350 4250 4200 4250
+	5850 2700 5950 2700
+NoConn ~ 5950 2700
 Wire Wire Line
-	4200 4350 4350 4350
+	5950 2600 5850 2600
 Wire Wire Line
-	4350 4450 4200 4450
+	5850 2800 5950 2800
 Wire Wire Line
-	4200 4550 4350 4550
+	5950 2950 5850 2950
 Wire Wire Line
-	4350 4650 4200 4650
+	5850 3100 5950 3100
+Wire Wire Line
+	5950 3250 5850 3250
+Wire Wire Line
+	5950 3350 5850 3350
+Wire Wire Line
+	4700 3300 4600 3300
+Wire Wire Line
+	4600 3200 4700 3200
+Wire Wire Line
+	4600 3050 4700 3050
+Wire Wire Line
+	4600 2950 4700 2950
+Wire Wire Line
+	4700 2850 4600 2850
+Wire Wire Line
+	4600 2700 4700 2700
+Wire Wire Line
+	4700 2600 4600 2600
+Wire Wire Line
+	4600 2500 4700 2500
+Wire Wire Line
+	4700 2400 4600 2400
+Wire Wire Line
+	4600 2300 4700 2300
+Wire Wire Line
+	4700 2200 4600 2200
+Wire Wire Line
+	4600 2100 4700 2100
+Wire Wire Line
+	4700 1950 4600 1950
+Wire Wire Line
+	4600 1850 4700 1850
+Wire Wire Line
+	5850 2450 5950 2450
+Wire Wire Line
+	5950 2350 5850 2350
+Wire Wire Line
+	5850 2250 5950 2250
+Wire Wire Line
+	5850 2150 5950 2150
+Wire Wire Line
+	5850 1950 5950 1950
+Wire Wire Line
+	5950 1850 5850 1850
+Wire Wire Line
+	5850 2050 5950 2050
 $EndSCHEMATC
