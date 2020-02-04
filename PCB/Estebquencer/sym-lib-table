@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Estebquencer-rescue)(type Legacy)(uri ${KIPRJMOD}/Estebquencer-rescue.lib)(options "")(descr ""))
+  (lib (name libreria_proyecto)(type Legacy)(uri ${KIPRJMOD}/librerias_locales/libreria_proyecto.lib)(options "")(descr ""))
+)
