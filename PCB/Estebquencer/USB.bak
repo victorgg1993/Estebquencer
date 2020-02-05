@@ -200,4 +200,30 @@ F 3 "" H 7250 4250 50  0001 C CNN
 	1    7250 4250
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3B6D2E
+P 6800 4250
+F 0 "#PWR?" H 6800 4000 50  0001 C CNN
+F 1 "GND" H 6805 4077 50  0000 C CNN
+F 2 "" H 6800 4250 50  0001 C CNN
+F 3 "" H 6800 4250 50  0001 C CNN
+	1    6800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4250 6800 3850
+Wire Wire Line
+	6800 3850 6850 3850
+Wire Wire Line
+	6450 4250 6450 4150
+Wire Wire Line
+	7250 4250 7250 4100
+Wire Wire Line
+	7150 4050 7150 4100
+Wire Wire Line
+	7150 4100 7250 4100
+Connection ~ 7250 4100
+Wire Wire Line
+	7250 4100 7250 4050
 $EndSCHEMATC
