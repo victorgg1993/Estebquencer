@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -106,10 +106,10 @@ $EndComp
 Text Notes 5800 3750 0    79   ~ 16
 Clock Out
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5E38FE5C
 P 5300 3900
-F 0 "#PWR?" H 5300 3650 50  0001 C CNN
+F 0 "#PWR0101" H 5300 3650 50  0001 C CNN
 F 1 "GND" H 5305 3727 50  0000 C CNN
 F 2 "" H 5300 3900 50  0001 C CNN
 F 3 "" H 5300 3900 50  0001 C CNN

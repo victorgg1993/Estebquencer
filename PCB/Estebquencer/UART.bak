@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 5906 4000
 encoding utf-8
-Sheet 9 10
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -19,10 +19,10 @@ Rx
 Text HLabel 2700 1400 0    60   Input ~ 0
 Tx
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0132
 U 1 1 5F4BD54A
 P 2700 1650
-F 0 "#PWR?" H 2700 1400 50  0001 C CNN
+F 0 "#PWR0132" H 2700 1400 50  0001 C CNN
 F 1 "GND" H 2705 1477 50  0000 C CNN
 F 2 "" H 2700 1650 50  0001 C CNN
 F 3 "" H 2700 1650 50  0001 C CNN

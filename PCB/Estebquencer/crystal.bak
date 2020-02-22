@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 5906 4000
 encoding utf-8
-Sheet 7 10
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -15,11 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Estebquencer-rescue:Crystal 8MHz
+L Estebquencer-rescue:Crystal XTAL?
 U 1 1 5875B883
 P 2900 1050
-F 0 "8MHz" H 2900 1200 50  0000 C CNN
-F 1 "Crystal" H 2900 1050 50  0001 C CNN
+F 0 "XTAL?" H 2900 1200 50  0000 C CNN
+F 1 "8MHz" H 2900 1050 50  0001 C CNN
 F 2 "" H 2900 1050 50  0000 C CNN
 F 3 "" H 2900 1050 50  0000 C CNN
 	1    2900 1050
@@ -51,10 +51,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 1050 2750 1050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0129
 U 1 1 5E3C8828
 P 2550 1800
-F 0 "#PWR?" H 2550 1550 50  0001 C CNN
+F 0 "#PWR0129" H 2550 1550 50  0001 C CNN
 F 1 "GND" H 2555 1627 50  0000 C CNN
 F 2 "" H 2550 1800 50  0001 C CNN
 F 3 "" H 2550 1800 50  0001 C CNN
@@ -62,10 +62,10 @@ F 3 "" H 2550 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0130
 U 1 1 5E3C885B
 P 3200 1800
-F 0 "#PWR?" H 3200 1550 50  0001 C CNN
+F 0 "#PWR0130" H 3200 1550 50  0001 C CNN
 F 1 "GND" H 3205 1627 50  0000 C CNN
 F 2 "" H 3200 1800 50  0001 C CNN
 F 3 "" H 3200 1800 50  0001 C CNN
