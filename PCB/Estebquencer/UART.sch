@@ -30,10 +30,10 @@ F 3 "" H 2700 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J10
 U 1 1 5E3C9388
 P 3100 1500
-F 0 "J?" H 3180 1542 50  0000 L CNN
+F 0 "J10" H 3180 1542 50  0000 L CNN
 F 1 "Conn_01x03" H 3180 1451 50  0000 L CNN
 F 2 "" H 3100 1500 50  0001 C CNN
 F 3 "~" H 3100 1500 50  0001 C CNN

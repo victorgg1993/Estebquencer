@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:AudioJack2 J?
+L Connector:AudioJack2 J6
 U 1 1 5E3851CE
 P 6450 2500
-F 0 "J?" H 6270 2575 50  0000 R CNN
+F 0 "J6" H 6270 2575 50  0000 R CNN
 F 1 "CV 1" H 6270 2484 50  0000 R CNN
 F 2 "" H 6450 2500 50  0001 C CNN
 F 3 "~" H 6450 2500 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 6450 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2 J?
+L Connector:AudioJack2 J5
 U 1 1 5E384E2F
 P 6450 2200
-F 0 "J?" H 6271 2275 50  0000 R CNN
+F 0 "J5" H 6271 2275 50  0000 R CNN
 F 1 "Gate 1" H 6271 2184 50  0000 R CNN
 F 2 "" H 6450 2200 50  0001 C CNN
 F 3 "~" H 6450 2200 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "~" H 6450 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2 J?
+L Connector:AudioJack2 J2
 U 1 1 5E385346
 P 5100 2500
-F 0 "J?" H 4850 2550 50  0000 C CNN
+F 0 "J2" H 4850 2550 50  0000 C CNN
 F 1 "Clock In 2" H 4700 2450 50  0000 C CNN
 F 2 "" H 5100 2500 50  0001 C CNN
 F 3 "~" H 5100 2500 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "~" H 5100 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2 J?
+L Connector:AudioJack2 J1
 U 1 1 5E38534C
 P 5100 2150
-F 0 "J?" H 4850 2250 50  0000 C CNN
+F 0 "J1" H 4850 2250 50  0000 C CNN
 F 1 "Clock In 1" H 4700 2100 50  0000 C CNN
 F 2 "" H 5100 2150 50  0001 C CNN
 F 3 "~" H 5100 2150 50  0001 C CNN
@@ -65,10 +65,10 @@ Track 2
 Text Notes 4450 1900 0    79   ~ 16
 Clock In
 $Comp
-L Connector:AudioJack2 J?
+L Connector:AudioJack2 J7
 U 1 1 5E38C9EE
 P 6450 3100
-F 0 "J?" H 6271 3175 50  0000 R CNN
+F 0 "J7" H 6271 3175 50  0000 R CNN
 F 1 "Gate 2" H 6271 3084 50  0000 R CNN
 F 2 "" H 6450 3100 50  0001 C CNN
 F 3 "~" H 6450 3100 50  0001 C CNN
@@ -76,10 +76,10 @@ F 3 "~" H 6450 3100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2 J?
+L Connector:AudioJack2 J8
 U 1 1 5E38CA4C
 P 6450 3400
-F 0 "J?" H 6270 3475 50  0000 R CNN
+F 0 "J8" H 6270 3475 50  0000 R CNN
 F 1 "CV 2" H 6270 3384 50  0000 R CNN
 F 2 "" H 6450 3400 50  0001 C CNN
 F 3 "~" H 6450 3400 50  0001 C CNN
@@ -93,10 +93,10 @@ Wire Notes Line
 Wire Notes Line
 	4450 1950 4450 2650
 $Comp
-L Connector:AudioJack2 J?
+L Connector:AudioJack2 J3
 U 1 1 5E38EEEB
 P 6300 4000
-F 0 "J?" H 6050 4100 50  0000 C CNN
+F 0 "J3" H 6050 4100 50  0000 C CNN
 F 1 "Clock Out 1" H 5900 3950 50  0000 C CNN
 F 2 "" H 6300 4000 50  0001 C CNN
 F 3 "~" H 6300 4000 50  0001 C CNN
@@ -195,10 +195,10 @@ Cin2
 Text HLabel 6050 4000 0    60   Input ~ 0
 Cout2
 $Comp
-L Connector:AudioJack2 J?
+L Connector:AudioJack2 J4
 U 1 1 5F4BF778
 P 6300 4300
-F 0 "J?" H 6050 4400 50  0000 C CNN
+F 0 "J4" H 6050 4400 50  0000 C CNN
 F 1 "Clock Out 2" H 5900 4250 50  0000 C CNN
 F 2 "" H 6300 4300 50  0001 C CNN
 F 3 "~" H 6300 4300 50  0001 C CNN

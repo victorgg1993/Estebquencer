@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Estebquencer-rescue:CONN_01X03 P?
+L Estebquencer-rescue:CONN_01X03 P1
 U 1 1 587395E4
 P 3200 1500
-F 0 "P?" H 3200 1700 50  0000 C CNN
+F 0 "P1" H 3200 1700 50  0000 C CNN
 F 1 "CONN_01X03" V 3300 1500 50  0000 C CNN
-F 2 "" H 3200 1500 50  0000 C CNN
+F 2 "" H 3200 1500 50  0001 C CNN
 F 3 "" H 3200 1500 50  0000 C CNN
 	1    3200 1500
 	1    0    0    -1  

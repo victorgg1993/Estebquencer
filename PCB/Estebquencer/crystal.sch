@@ -15,23 +15,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Estebquencer-rescue:Crystal XTAL?
+L Estebquencer-rescue:Crystal XTAL1
 U 1 1 5875B883
 P 2900 1050
-F 0 "XTAL?" H 2900 1200 50  0000 C CNN
+F 0 "XTAL1" H 2900 1200 50  0000 C CNN
 F 1 "8MHz" H 2900 1050 50  0001 C CNN
-F 2 "" H 2900 1050 50  0000 C CNN
+F 2 "" H 2900 1050 50  0001 C CNN
 F 3 "" H 2900 1050 50  0000 C CNN
 	1    2900 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Estebquencer-rescue:C C?
+L Estebquencer-rescue:C C13
 U 1 1 5875B8B9
 P 2550 1550
-F 0 "C?" H 2575 1650 50  0000 L CNN
+F 0 "C13" H 2575 1650 50  0000 L CNN
 F 1 "20pF" H 2575 1450 50  0000 L CNN
-F 2 "" H 2588 1400 50  0000 C CNN
+F 2 "" H 2588 1400 50  0001 C CNN
 F 3 "" H 2550 1550 50  0000 C CNN
 	1    2550 1550
 	1    0    0    -1  
@@ -73,21 +73,21 @@ F 3 "" H 3200 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Estebquencer-rescue:C C?
+L Estebquencer-rescue:C C14
 U 1 1 5E3CA94D
 P 3200 1550
-F 0 "C?" H 3225 1650 50  0000 L CNN
+F 0 "C14" H 3225 1650 50  0000 L CNN
 F 1 "20pF" H 3225 1450 50  0000 L CNN
-F 2 "" H 3238 1400 50  0000 C CNN
+F 2 "" H 3238 1400 50  0001 C CNN
 F 3 "" H 3200 1550 50  0000 C CNN
 	1    3200 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R20
 U 1 1 5E3CAEF4
 P 2900 1300
-F 0 "R?" V 3000 1250 50  0000 C CNN
+F 0 "R20" V 3000 1250 50  0000 C CNN
 F 1 "1M" V 2900 1300 50  0000 C CNN
 F 2 "" H 2900 1300 50  0001 C CNN
 F 3 "~" H 2900 1300 50  0001 C CNN
